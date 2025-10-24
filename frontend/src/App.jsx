@@ -41,8 +41,21 @@ function App() {
           />
         ))}
       </div>
+    
+      {/* Footer */}
+      <footer className="relative z-10 bg-white/50 backdrop-blur-sm border-t border-gray-300 py-6 mt-20">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <p className="text-gray-600">
+            © 2025 Kavyashree M R. All rights reserved.
+          </p>
+          <p className="text-sm text-gray-500 mt-2">
+            Built with React, Tailwind CSS & Node.js
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
+
 
 export default App;
